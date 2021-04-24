@@ -52,7 +52,7 @@ module.exports = {
   cta_link_faucet: "Test {{currency}} Coins erhalten",
   cta_toys: "Starte deine TOYS Sammlung!",
   cta_prefer_stacking:
-    "Oder siehst du anderen Spielern lieber zu und nimmst and deren Erfolg Teil?",
+    "Oder siehst du anderen Spielern lieber zu und nimmst an deren Erfolg Teil?",
   cta_stack: "Dann stacke GAT!",
   cta_button_toys: "Hole dir deine ersten TOYs",
   cta_button_gat: "Stack GAT",
@@ -63,7 +63,7 @@ module.exports = {
   toys_stat_total: "Alle TOYS",
   turn_fee: "Spielzug-Gebühr",
   turn_fee_plural: "Spielzug-Gebühren",
-  turns_left: "Verbleibende Spielzüge diese Periode",
+  turns_left: "Verbleibende Spielzüge dieser Periode",
   toys_collection_alert_none:
     "Du hast noch keine TOYS. Starte das Anbetungsritual, um die ersten TOYS zu erhalten!",
   toys_collection_alert_none2: "Dieses Konto scheint noch keine TOYS zu haben!",
@@ -74,18 +74,18 @@ module.exports = {
   collection_filter_empty: "Keine TOYS zu deinen Suchkriterien gefunden!",
   collection_load_more: "Mehr laden",
   token_details: "Token Detailseite",
-  token_sacrificed: "Dieses TOYS Typ wurde bereits geopfert",
+  token_sacrificed: "Dieser TOYS Typ wurde bereits geopfert",
   action_marketplace: "Zum Marktplatz",
   melt_into: "Ins",
   pray_success_header: "Glückwunsch!",
   pray_success_subheader: "hier sind deine TOYS vom letzten Ritual",
   melt_success_subheader: "hier sind deine TOYS von der letzten Verschmelzung",
-  toys_worship_doc: `Das Anbetungsritual gibt dir 3 zufällige Tokens aus der untersten Ebene. Es gibt eine gewisse Wahrscheinlichkeit, dass man <1> ein Token aus einer höheren Ebene erhält</1>. Die Anbetung kostet dich <3>1x Spielzug-Gebühr und einen Spielzug</3>.`,
+  toys_worship_doc: `Das Anbetungsritual gibt dir 3 zufällige Tokens aus der untersten Ebene. Es gibt eine gewisse Wahrscheinlichkeit, dass man <1> einen Token aus einer höheren Ebene erhält</1>. Die Anbetung kostet dich <3>1x Spielzug-Gebühr und einen Spielzug</3>.`,
   toys_worship_cta: "Klicke diesen Button, um das Anbetungsritual zu starten:",
   toys_worship_button: "Ritual starten",
   toys_worship_probabilities: "Wahrscheinlichkeiten einer höheren Ebene",
   toys_worship_probabilities_description:
-    "Jedes neu generiertes TOYS Token kann einer höheren Ebene dazugehören. Die Wahrscheinlichkeit davon ist in der Tabelle unten angegeben:",
+    "Jeder neu generierte TOYS Token kann einer höheren Ebene angehören. Die Wahrscheinlichkeit davon ist in der Tabelle unten angegeben:",
   toys_level: "Ebene",
   toys_probability: "Wahrscheinlichkeit / Token",
   toys_chances: "Chancen / Token",
@@ -94,10 +94,10 @@ module.exports = {
   turns_alert_no_turns: "Du hast keine Spielzüge mehr!",
   turns_alert_cost: "Diese Aktion kostet ein Spielzug.",
   turns_alert_wait_time: "Warte bitte, bis die Periode am {{time}} endet!",
-  turns_alert_wait: "Please wait for the next cycle!",
+  turns_alert_wait: "Bitte warte auf die nächste Periode!",
   cancel: "Abbrechen",
   toys_melt_header: "Diese TOYS werden verschmolzen",
-  toys_melt_subheader: "sie dir sicher, dass du es willst!",
+  toys_melt_subheader: "bist du dir sicher, dass du es willst?",
   toys_melt_button: "TOYS verschmelzen",
   toys_melt_recipe_new: "Dieses Rezept existiert nicht!",
   toys_melt_recipe_new_description:
@@ -114,17 +114,17 @@ module.exports = {
           <3> 1x Spielzug-Gebühr und einen Spielzug</3>, zusätzlich zu den zwei TOYS, die dadurch verbrannt werden.
   `,
   toys_melt_doc_2: `
-  Wenn die zwei ausgewählten TOYS Typen in dieser Epoche von keinem Spieler noch verschmolzen vorden sind
-  (es gibt also noch keinen Rezept), <1>erhältst du einen zusätzlichen TOYS token</1>, wenn du diese Kombination ausprobierst!
+  Wenn die zwei ausgewählten TOYS Typen in dieser Epoche von noch keinem Spieler verschmolzen worden sind
+  (es gibt also noch kein Rezept), <1>erhältst du einen zusätzlichen TOYS Token</1>, wenn du diese Kombination ausprobierst!
   Und zwar eine Ebene niedriger als das neue TOYS Token.
   <3> Experimentieren lohnt sich also!</3>
   `,
   error_header: "Ein Fehler ist aufgetreten",
   try_again: "Nochmal versuchen",
   toys_enlightenment_subheader:
-    "hier ist deinToken der Erleuchtung - ein Schlüssel fürs Göttertum",
+    "hier ist dein Token der Erleuchtung - ein Schlüssel fürs Göttertum",
   toys_enlightenment_header: "Erleuchtung erreicht!",
-  toys_sacrifice_subheader: "das waren diene geopferten TOYS",
+  toys_sacrifice_subheader: "das waren deine geopferten TOYS",
   toys_sacrifice_header: "Ein Schritt näher zur Erleuchtung!",
   toys_sacrifice_button: "Diese TOYS opfern",
   toys_sacrifice_confirmation: "Diese TOYS werden geopfert",
@@ -139,15 +139,15 @@ module.exports = {
     "Diese TOYS sind etwas Besonderes, wurden bereits geopfert oder du versuchst gerade, denselben TOYS-Typ mehr als einmal zu opfern. Bitte deselektiere die unten stehenden TOYS",
   toys_sacrifice_turns_header: "Nicht ausreichend Spielzüge",
   toys_sacrifice_turns_description:
-    "Du hast nicht genug Spielzüge übrig, um alle diese TOYS zu opfern, da jedes geopferte TOYS Token ein Spielzug kostet. Deselektiere bitte einige von diesen TOYS, um fortzufahren.",
+    "Du hast nicht genug Spielzüge übrig, um alle diese TOYS zu opfern, da jedes geopferte TOYS Token einen Spielzug kostet. Deselektiere bitte einige von diesen TOYS, um fortzufahren.",
   toys_sacrifice_doc: `
     Deine TOYS zu opfern <1>bringt dich näher zur Erleuchtung</1>.
     Sobald du eins von jeden TOYS-Typ opfers, erhältst du automatisch
-    einen <3>Token der Erleuchtung</3>, einSchlüssel zum Göttertum!
+    einen <3>Token der Erleuchtung</3>, ein Schlüssel zum Göttertum!
     `,
   toys_sacrifice_doc_2: `Opfern kostet dich <1>ein Spielzug für jedes geopferte TOY Token</1>.`,
   toys_serial_doc: `
-  Die Liste unten zeigt die jetzigen höchsten Seriennummern für jedes TOYS-Typ.
+  Die Liste unten zeigt die aktuellen höchsten Seriennummern für jeden TOYS-Typ.
   Wenn ein neues TOYS Token entsteht, bekommt er automatisch eine höhere Seriennummer.
   Dadurch wird auch dieser globale Zähler der Seriennummern erhöht.
   `,
@@ -159,17 +159,17 @@ module.exports = {
   `,
   enlightenment_stat_sacrificed: "Geopferte TOYS",
   enlightenment_stat_index: "Dein Opfer-Index",
-  enlightenment_stat_enlightened: "Erleuchtete diese Epoche",
+  enlightenment_stat_enlightened: "Erleuchtete dieser Epoche",
   enlightenment_stat_you: "das bist du!",
   enlightenment_si_your: "Dein aktueller Opfer-Index ist",
   enlightenment_si_description: `
-    <0><0>Opfer-Index ("SI" oder <1></1>) ist die <4>Summer der Seriennummern</4>
+    <0><0>Opfer-Index ("SI" oder <1></1>) ist die <4>Summe der Seriennummern</4>
     (<6></6>)</0> aller von dir geopferten TOYS in der aktuellen Erleuchtung (unabhängig von deren Ebene).
     Niedrigeres SI bedeutet, dass du eine ältere Sammlung geopfert hast.
     Das spielt eine Rolle wenn es mehrere Erleuchtete in einer Epoche gibt.
     Denn der Erleuchtete mit niedrigerem Opfer-Index bekommt einen höheren Anteil am Schatz
-    proportional zu dem alter seiner geopferten Sammlung.
-    </0><1><0>Beispiel:</0>  Zwei erleuchtete in einer Epoche. Spieler A <2></2> = <5>1000</5>.
+    proportional zu dem Alter seiner geopferten Sammlung.
+    </0><1><0>Beispiel:</0>  Zwei Erleuchtete in einer Epoche. Spieler A <2></2> = <5>1000</5>.
     Spieler B <7></7> = <10>500</10>. Summe = <13>1500</13>.
     Spieler A erhält <16>(1500-1000)/1500</16> = <19>33.33%</19> des Schatzes.
     Spieler B erhält <22>(1500-500)/1500</22> = <25>66.66%</25>.
@@ -192,26 +192,26 @@ module.exports = {
   prophet_error: "Noch keine Erleuchteten!",
   prophet_error_doc: `
   Um das Proklamationsritual zu starten, muss diese Epoche mindestens ein Erleuchteter existieren!
-  Warte noch auf einen Erleuchteten oder werde selber zu einem, indem do TOYS sammelst un diese opferst!`,
+  Warte noch auf einen Erleuchteten oder werde selber zu einem, indem du TOYS sammelst und diese opferst!`,
   prophet_doc: `
-  <0>Sobald es in eine Epoche mindestens einen Erleuchteten gibt, kann jeder die Rolle eines <1>"Propheten"</1> annehmen
+  <0>Sobald es in einer Epoche mindestens einen Erleuchteten gibt, kann jeder die Rolle eines <1>"Propheten"</1> annehmen
   und die aktuelle Epoche beenden, indem der Prophet das <4>"Proklamationsritual"</4> startet.
   </0><1>Während des Rituals, werden die <1>Tokens der Erleuchtung</1>
   der erleuchteten Spieler in <3>Goodhood Tokens</3> umgetauscht.
   Darüberhinaus, wird die Schatzkammer des Tempels aufgemacht und Belohnungen ausgezahlt: an die Erleuchteten,
   an die Schamanen und sogar an den Propheten.</1><2>Prophet zu sein zahlt sich also aus! Der Spieler,
-  der zuerst au den Knopf drückt, bekommt sagenhafte <1>{{pctProphet}}%</1> des Wertes der Schatzkammer!</2>
+  der zuerst auf den Knopf drückt, bekommt sagenhafte <1>{{pctProphet}}%</1> des Wertes der Schatzkammer!</2>
   `,
   give_toys: "Gib mir TOYS",
   prophet_error_time: "Es ist noch nicht genug Zeit vergangen!",
   prophet_error_time_docs: `
-  Es gibt bereits mindestens einen Erleuchteten, das Proklamationsritual kann aber erst anfangen
+  Es gibt bereits mindestens einen Erleuchteten, das Proklamationsritual kann aber erst anfangen,
   wenn mindesten eine volle Periode seit der letzten Erleuchtung vergangen ist.
   Schau bitte in der nächsten Periode vorbei!
   `,
   proclaim_header: "Eine neue Epoche steht vor der Tür!",
   proclaim_subheader: "nimm die Rolle eines Propheten an",
-  proclaim_button: "Neue Götter Proklamieren!",
+  proclaim_button: "Neue Götter proklamieren!",
   proclaim_description:
     "Folgende Tokens der Erleuchtung wurden diese Epoche gesichtet:",
   olymp_description:
@@ -233,9 +233,9 @@ module.exports = {
   toys_collection: "TOYS Sammlung",
 
   token_details: "Token Details",
-  token_error: "Ungültigen Token-Format",
+  token_error: "Ungültiges Token-Format",
   token_error_doc:
-    "Dieses Token-ID scheint ungültig zu sein. Prüfe bitte deine Angabe!",
+    "Diese Token-ID scheint ungültig zu sein. Prüfe bitte deine Angabe!",
   token_sent: "TOYS-Token gesendet!",
   token_sent_doc: "Diese token wurde gesendet an {{addr}}",
   token_sent_error: "Ein Fehler ist beim Senden aufgetreten!",
@@ -252,7 +252,7 @@ module.exports = {
   owner: "Halter",
   treasury_shares: "Aufteilung der Schatzkammer",
   treasury_doc_1: `
-  <p>Während des Proklamationsrituals wird die Schatzkammer aufgemacht um die Erleuchteten (zurkünftige Alchemie-Götter),
+  <p>Während des Proklamationsrituals wird die Schatzkammer aufgemacht, um die Erleuchteten (zurkünftige Alchemie-Götter),
   die Schamanen und den Propheten zu belohnen.</p>
   <p>Die Aufteilung ist wie folgt:</p>
   `,
@@ -261,9 +261,9 @@ module.exports = {
   prophet: "Prophet",
   temple_reserve: "Tempelreserve",
   treasury_doc_2: `
-  <0><0>Die Templelreserve</0> ist einfach ein Betrag, das in der Schatzkammer für die nächste Epoche
+  <0><0>Die Templelreserve</0> ist einfach ein Betrag, der in der Schatzkammer für die nächste Epoche
   gelassen wird, sodass die nächste Epoche nicht mit einer komplett leeren Schatzkammer anfängt.
-  So bleibt der Schatz begehrenswert, auch wischen zwei Epochen.</0>
+  So bleibt der Schatz begehrenswert, auch zwischen zwei Epochen.</0>
   <1><0>Der Schamanenanteil</0> wird an die Schamanengewölbe ausgezahlt, aber nur ab der zweiten Epoche,
   da kein Schamane in der ersten Epoche dazu berechtigt ist.
   Dieser Betrag bleibt einfach im Tempel für die nächste Epoche.</1>
@@ -271,16 +271,16 @@ module.exports = {
   temple_header: "Wenn die Proklamation jetzt passieren würde",
   temple_subheader: "wäre die Aufteilung des Schatzes wie folgt:",
   temple_value: "Gesamtwert des Schatzes",
-  gat_input_error: "Bitte einen Gültigen Betrag eintragen",
+  gat_input_error: "Bitte einen gültigen Betrag eintragen",
   gat_balance: "Dein GAT Kontostand",
   bnb_balance: "Dein {{currency}} Kontostand",
   gat_total: "Verfügbare GAT",
   gat_more: "GAT umtauschen",
   gat_doc: `
-  <0> Die maximale Versorgungsobergrenze, die über diesen Tausch-Börse verfügbar ist, ist auf <1> 1.000.000 Token </1> festgelegt.
+  <0> Die maximale Versorgungsobergrenze, die über diese Tausch-Börse verfügbar ist, ist auf <1> 1.000.000 Token </1> festgelegt.
    Auch wenn möglicherweise nicht von Anfang an alle GATs hier hinzugefügt werden.</0>
    <1> Die Börse ist für eine lineare Preiserhöhung konfiguriert. Der allererste Token kostet <1> {{smin}} {{currency}} </1>.
-   Und der letzte, millionste Token würde <3> {{smax}} {{currency}} </3> kosten.</1>
+   Und der letzte, millionste Token, würde <3> {{smax}} {{currency}} </3> kosten.</1>
    <2> Wenn mehr BNB als verfügbare GAT-Token gesendet werden, wird die Differenz an den Absender zurückgezahlt,
     zusammen mit den getauschten GAT Tokens. </2>
   `,
@@ -312,8 +312,8 @@ module.exports = {
   Am Ende der Epoche, zahlt die Scahtzkammer <1>{{pctShamans}}%</1> vom verfügbaren
           {{currency}} an die Schamanen. Diese Summe wird unter allen GAT Haltern
           aufgeteilt, die für die Auszahlung in der jeweiligen Epoche berechtigt sind.
-          Ab der nächsten Epoche können dann die Schamanen deren Anteil an der Belohnung
-          sich auszahlen lassen.
+          Ab der nächsten Epoche können sich dann die Schamanen ihren Anteil an der Belohnung
+          auszahlen lassen.
   `,
   shamans_doc_2: `
   <0><0></0> Wie der Schamanen-Tresor funktioniert</0>
@@ -337,19 +337,19 @@ module.exports = {
   <5> Beispiel: Du hast in Epoche 1 100 GAT hinzugefügt. Dadurch hast du Anspruch auf Belohnungen
   ab Epoche 2. Wenn du in Epoche 2 mehr GAT hinzufügen, ändert sich deine Berechtigung auf
   Epoche 3. Wenn also die 3. Epoche kommt und die Belohnungen für vergangene Epochen
-  zu Auszahlung verfügbar werden, erhältst du für die 2. Epoche keine Auszahlung.</5>
+  zur Auszahlung verfügbar werden, erhältst du für die 2. Epoche keine Auszahlung.</5>
   
   <p>Dies ist eine technische Einschränkung. Um dieses Problem zu umgehen,
   kannst du eine andere Adresse verwenden und GAT separat sperren.</p>
   
-  <7>Durch das Freischalten wird Ihr gesamtes GAT aus dem Tresor entfernt und die
+  <7>Durch das Freischalten wird dein gesamtes GAT aus dem Tresor entfernt und die
   Epoche auf die nächste verschoben, wodurch alle Belohnungen für die aktuelle Epoche verfallen.
   </7>
   
   <8>Beispiel: Du hast in Epoche 1 100 GAT hinzugefügt. In Epoche 3 schaltest du dein GAT frei. 
   <2>Das gesamte GAT wird dir gutgeschrieben und alle ausstehenden Belohnungen für vergangene
   Epochen werden automatisch ausgezahlt </2>
-  (in diesem Fall für Epoche 2, wenn du die Auszahlung schon nicht vorher angefordert hast).
+  (in diesem Fall für Epoche 2, wenn du die Auszahlung nicht schon vorher angefordert hast).
   In der 4. Epoche erhältst du jedoch keine Belohnung für die 3. Epoche, unabhängig davon,
   zu welchem ​​Zeitpunkt während der Epoche du deinen Anteil aus dem Tresor entfernt hast.</8>
   `,
@@ -357,11 +357,11 @@ module.exports = {
   shamans_unlocked_balance: "Mein (nicht gesperrter) GAT Kontostand",
   shamans_lock_error: "You do not have any GAT",
   shamans_lock_error_doc:
-    "Damit du GAT im Tresor einsperren kannst, brauchst du zunächst etwas GAT! Du kannst {{currency}} gegen GAT auf unseren Spiel-Börse tauschen",
+    "Damit du GAT im Tresor einsperren kannst, brauchst du zunächst etwas GAT! Du kannst {{currency}} gegen GAT auf unserer Spiel-Börse tauschen",
   shamans_lock_input: "Gib einen GAT Betrag ein",
   shamans_lock_input_doc: "Betrag den du sperren möchtest",
   shamans_lock_button: "GAT sperren",
   shamans_tx_warn: "Zwei Transaktionen",
   shamans_tx_warn_doc:
-    "Wenn du auf den Knopf oben klickst, fragt das Tresor zunächst nach deiner Erlaubnis, von deinem Konto GAT abzuheben. De zweite Transaktion ist dann die eigentliche Sperrung.",
+    "Wenn du auf den Knopf oben klickst, fragt der Tresor zunächst nach deiner Erlaubnis, von deinem Konto GAT abzuheben. Die zweite Transaktion ist dann die eigentliche Sperrung.",
 };
