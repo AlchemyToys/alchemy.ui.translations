@@ -201,61 +201,61 @@ module.exports = {
   allo shamano e ai profeti.</1><2>Essere un profeta paga! L'utente che primo clicca sul bottone profeta
   riceve un enorme <1>{{pctProphet}}%</1> dal Tesoro del Tempio!</2>
   `,
-  give_toys: "Give me TOYS",
-  prophet_error_time: "Not enough time has passed, yet!",
+  give_toys: "Dammi dei TOYS",
+  prophet_error_time: "Non è passato ancora abbastanza tempo!",
   prophet_error_time_docs: `
-  There is at least one enlightened already, but the Proclamation Ritual
-        can only start after at least one full cycle has passed without any new
-        enlightenments. Please check back in the next cycle!
+  C'è già almeno un illuminato, ma il rituale di Proclamazione 
+        può iniziare solamente dopo l'ultime ciclo senza una nuova
+        illuminazione. Controllare al prossimo ciclo!
   `,
-  proclaim_header: "Epoch change is upon us!",
-  proclaim_subheader: "assume the role of a prophet",
-  proclaim_button: "Proclaim new Gods!",
+  proclaim_header: "L'epoca sta cambiando!",
+  proclaim_subheader: "Assumi il ruolo di profeta",
+  proclaim_button: "Proclama una nuova Divinità!",
   proclaim_description:
-    "Following Enlightenment Tokens have been sighted in this epoch:",
+    "Il seguente Enlightenment Tokens è stato avvistato in questa epoca:",
   olymp_description:
-    "This is the Alchemy Gods' Olymp - a history of the gloriously Enlightened and Ascended ones!",
-  gods_error: "There are no known Gods, yet!",
+    "Questo è l'Olimpo della Divinità Alchemica - una storia di gloriose Illuminazioni e Ascensioni!",
+  gods_error: "Non ci sono ancora divinità conosciute!",
   gods_error_doc:
-    "Maybe you are the future Ascended one? Why not start your path of enlightenment by getting and sacrificing a few news TOYS?",
+    "Forse sei il futuro Asceso? Perchè non inizi il tuo percorso di illuminazione recuperando e sacrificando un pò di TOYS?",
   explore_input_error:
-    "Your input does not seem to be a valid address or token id!",
-  search: "Search",
-  search_placeholder: "Search for address or token ID",
-  go_to_market: "Go to Market",
-  market_for_sale: "For sale on the market",
-  address_details: "Address details",
-  address_error: "Wrong address format",
-  address_error_doc: "This address seems to be wrong. Please check!",
-  back_search: "Back to search",
-  toys_collection: "TOYS collection",
-  token_details: "Token Details",
-  token_error: "Wrong token format",
-  token_error_doc: "This token ID seems to be wrong. Please check!",
-  token_sent: "TOYS token sent!",
-  token_sent_doc: "The token has been sent to {{addr}}",
-  token_sent_error: "Error while sending the TOYS token!",
-  token_send: "Send Token",
-  token_send_placeholder: "Address of the beneficiary",
-  name: "Name",
-  serial_number: "Serial Number",
-  status: "Status",
-  status_active: "Active in play",
-  status_sacrificed: "Sacrificed",
-  status_404: "Does not exist",
-  nft_market: "NFT Market",
-  nft_market_link: "Open this TOYS token on the Marketplace",
-  owner: "Owner",
-  treasury_shares: "Following Treasury shares are configured",
+    "Il tuo dato non sembra essere un indirizzo o un token ID valido!",
+  search: "Cerca",
+  search_placeholder: "Cerca per indirizzo o token ID",
+  go_to_market: "Vai al Negozio",
+  market_for_sale: "Per ventita al negozio",
+  address_details: "Dettaglio",
+  address_error: "Formato indirizzo non valido",
+  address_error_doc: "Questo indirizzo sembra essere sbagliato. Controllalo!",
+  back_search: "Ritorna alla ricerca",
+  toys_collection: "Collezione dei TOYS",
+  token_details: "Dettaglio del Token",
+  token_error: "Format del token errato",
+  token_error_doc: "Questo token ID sembra essere sbagliato. Controllalo!",
+  token_sent: "TOYS token inviato!",
+  token_sent_doc: "Il token è stato inviato all'indirizzo {{addr}}",
+  token_sent_error: "Errore durante l'invio del TOYS token!",
+  token_send: "Invia Token",
+  token_send_placeholder: "Indirizzo del beneficiario",
+  name: "Nome",
+  serial_number: "Numbero Seriale",
+  status: "Stato",
+  status_active: "Attivo nel gioco",
+  status_sacrificed: "Sacrificato",
+  status_404: "Non esiste",
+  nft_market: "Negozio NFT",
+  nft_market_link: "Apri questo TOYS token nel Negozio",
+  owner: "Proprietario",
+  treasury_shares: "Le seguenti azioni del Tesoro sono state configurate",
   treasury_doc_1: `
-  <p>During the proclamation ritual, the Temple's Treasury is unlocked to reward the enlightened
-  (soon-to-be Gods), the shamans (for their hard work at the Temple) and the prophet.</p>
-  <p>The breakdown is as follows:</p>
+  <p>Durante il rituale di proclamazione, Il Tesoro del Tempio è libero di ricompensare l'illuminato
+  (figlio di Divinità), Lo shamano (per il duro lavoro nel Tempio) e il profeta.</p>
+  <p>La ripartizione è la seguente:</p>
   `,
-  enlightened_plural: "Enlightenend",
-  shamans_plural: "Shamans",
-  prophet: "Prophet",
-  temple_reserve: "TEmple reserve",
+  enlightened_plural: "Illuminati",
+  shamans_plural: "Shamani",
+  prophet: "Profeti",
+  temple_reserve: "Riserva del Tempio",
   treasury_doc_2: `
   <0><0>Temple reserve</0> is simply an amount that is left in the Temple's Treasury for the next epoch,
   so that the epoch does not start with a completely empty Treasury.
