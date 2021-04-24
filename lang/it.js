@@ -337,19 +337,18 @@ module.exports = {
   <8>Esempio: Aggiunti 100 GAT nell'epoca #1. Nell'epoca #3 sblocchi i tuoi GAT.
   Tutti i GAT ti vengono restituiti 
   <2>tutte le ricompense eccezionali delle epoche passate vengono pagate automaticamente</2>
-  (in this case for epoch #2, if you did not request the payout before unlocking).
-  However, in the epoch #4 you will not get and rewards for epoch #3, independently
-  at what point in time during the epoch you unlocked your share from the vault.</8>
+  (Nel nostro caso per l'epoca #2, se non hai fatto alcuna richiesta di pagamento prima dello sblocco).
+  Comunque, nell'epoca #4 non avrai ricompense per l'epoca #3, indipendentemente dal punto del momento dell'epoca che hai deciso di sbloccare.</8>
   `,
-  shamans_lock_header: "Lock more GAT",
-  shamans_unlocked_balance: "My (unlocked) GAT balance",
-  shamans_lock_error: "You do not have any GAT",
+  shamans_lock_header: "Blocca più GAT",
+  shamans_unlocked_balance: "Il mio saldo GAT (sbloccato)",
+  shamans_lock_error: "Non hai alcun GAT",
   shamans_lock_error_doc:
-    "In order to be able to lock GAT in this vault, you need some GAT first! You can use the GAT exchange to purchase some with {{currency}}",
-  shamans_lock_input: "Enter GAT value",
-  shamans_lock_input_doc: "GAT amount you are willing to lock",
-  shamans_lock_button: "Lock GAT",
-  shamans_tx_warn: "Two transactions",
+    "Per abilitarti a bloccare i GAT in questa cripta, occorre averne alcuni! Puoi usare il GAT exchange per comprarne utilizzando {{currency}}",
+  shamans_lock_input: "Inserisci il valore in GAT",
+  shamans_lock_input_doc: "Valore in GAT amount che sei disposto a bloccare",
+  shamans_lock_button: "Blocca GAT",
+  shamans_tx_warn: "Due transazioni",
   shamans_tx_warn_doc:
-    "When you click on the button above, the vault will first ask you to approve its use of your GAT. The second transaction is the locking itself.",
+    "Quando clicchi nel bottone sopra, la cripta ti chiederà di approvare ad usare i tuoi GAT. La seconda transazione sarà quella che li bloccherà",
 };
