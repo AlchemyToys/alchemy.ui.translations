@@ -85,41 +85,40 @@ module.exports = {
   toys_worship_cta: "Clicca sul pulsante sotto per iniziare il rituale di evocazione:",
   toys_worship_button: "Culto dei TOYS",
   toys_worship_probabilities:
-    "Worship probabilites for a token of higher level",
+    "Probabilità di culto per un token di livello superiore",
   toys_worship_probabilities_description:
-    "Each new card has a chance to be of a higher level. Below is the table of probabilities for each higher level:",
-  toys_level: "Level",
-  toys_probability: "Probability / Card",
-  toys_chances: "Chances / Card",
-  toys_chances_number: "1 in {{mul}}",
-  connect_wallet_button: "Connect your wallet first!",
-  turns_alert_no_turns: "No turns left!",
-  turns_alert_cost: "This action costs one turn.",
-  turns_alert_wait_time: "Please wait until the current cycle ends on {{time}}",
-  turns_alert_wait: "Please wait for the next cycle!",
-  cancel: "Cancel",
-  toys_melt_header: "These TOYS will melt",
-  toys_melt_subheader: "make sure you really want this!",
-  toys_melt_button: "Melt these TOYS",
-  toys_melt_recipe_new: "This recipe does not exist!",
+    "Per ogni livello, ogni nuova carta ha una precisa possibilità di essere estratta. Guarda la tabella sotto per scoprire la probabilità associata per ogni livello:",
+  toys_level: "Livello",
+  toys_probability: "Probabilità / Carta",
+  toys_chances: "Possibilità / Carta",
+  toys_chances_number: "1 su {{mul}}",
+  connect_wallet_button: "Prima di tutto connetti il tuo wallet!",
+  turns_alert_no_turns: "Non ci sono turni!",
+  turns_alert_cost: "Questa azione ha il costo di un turni.",
+  turns_alert_wait_time: "Aspetta la fine di questo ciclo che finisce il {{time}}",
+  turns_alert_wait: "Aspetta il prossimo ciclo!",
+  cancel: "Annulla",
+  toys_melt_header: "Questi sono i TOYS che verranno fusi",
+  toys_melt_subheader: "sei sicuro di fonderli?",
+  toys_melt_button: "Fondi questi TOYS",
+  toys_melt_recipe_new: "Questa ricetta non esiste!",
   toys_melt_recipe_new_description:
-    "If you melt these TOYS you will get an additional random TOYS token of lower level as a reward!",
-  toys_melt_select: "Please select TOYS to melt!",
+    "Se fondi questi TOYS potrai ricevere un TOYS token aggiuntivo di livello più basso come ricompensa!",
+  toys_melt_select: "Seleziona i TOYS da fondere!",
   toys_melt_select_description:
-    "You have to select exactly two TOYS from you collection.",
-  toys_select_button: "Select now",
+    "Devi selezionare esattamente due TOYS scelti dalla tua collezione.",
+  toys_select_button: "Seleziona",
   toys_melt_doc: `
-  Melting two of your TOYS gives you
-          <1> a new TOYS token of a higher level! </1> If you melt two toys of
-          different levels, the new TOYS token will be one level higher than the
-          average (rounded down) of the two melted TOYS. Melting costs you
-          <3> one turn fee and one turn</3>, apart of the two TOYS that you will
-          melt in the calderon.
+  Fondendo due TOYS avrai
+          <1> Un nuovo TOYS token di livello superiore! </1> Se fondi due TOYS di
+          livello diverso, il nuovo TOYS token sarà di un livello superiore del livello medio
+          (arrotondato per difetto) dei due TOYS fusi. Il costo di fusione sarà di
+          <3> la tassa di turno e un turno</3>, in aggiunta ai due TOYS che hai messo nel pentolone.
   `,
   toys_melt_doc_2: `
-  If the two TOYS types have not been melted before in this epoch, you
-          will get <1>an additional TOYS token of one lower level</1> than the
-          newly created one! <3>Experimenting pays off!</3>
+  Se i due tipi di TOYS types non sono stati fusi in questa epoca, avrai un
+           <1>TOYS token addizionale di livello più basso </1> di quello
+          Creato! <3>Sperimentare paga!</3>
   `,
   error_header: "There was an error",
   try_again: "Try again",
