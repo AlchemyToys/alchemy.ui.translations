@@ -257,88 +257,86 @@ module.exports = {
   prophet: "Profeti",
   temple_reserve: "Riserva del Tempio",
   treasury_doc_2: `
-  <0><0>Temple reserve</0> is simply an amount that is left in the Temple's Treasury for the next epoch,
-  so that the epoch does not start with a completely empty Treasury.
-  This way the temple still stays very attractive throughout the epoch changes.</0>
-  <1><0>Shaman's share</0> is paid out into the Shaman's Vault, but only starting from the second epoch,
-  since there are no shamans eligible in the first epoch any way.
-  Otherwise it is left in the Temple's Treasury for the next epoch.</1>
+  <0><0>Riserva del Tempio</0> è semplicemente la quantita lasciata nel Tesoro del Tempio per la prossima epoca,
+  quindi l'epoca non può iniziare se il Tesoro è completamente vuoto.
+  In questa maniera il tempio rimarrà interessante ogni volta che l'epoca cambia.</0>
+  <1><0>Azioni dello Shamano</0> è pagato dentro la cripta dello shamano, ma inizia solamente dalla seconda epoca,
+  fin quando non ci sono shamani elegibili nella prima epoca.
+  Altrimenti abbandona il Tesoro del Tempio nella prossima epoca.</1>
   `,
-  temple_header: "If the proclamation happened right now",
-  temple_subheader: "this would be the distribution of the temple:",
-  temple_value: "Total treasury value",
-  gat_input_error: "Please input a valid number",
-  gat_balance: "Your GAT balance",
-  bnb_balance: "Your {{currency}} balance",
-  gat_total: "Available GAT",
-  gat_more: "Get more GAT",
+  temple_header: "Se la proclamazione è avvenuta adesso",
+  temple_subheader: "questa dovrebbe essere la distribuzione del tempio:",
+  temple_value: "Valore totale del tesoro",
+  gat_input_error: "Inserire un numero valido",
+  gat_balance: "Il tuo saldo in GAT",
+  bnb_balance: "Il tuo saldo in {{currency}}",
+  gat_total: "GAT Disponibili",
+  gat_more: "Compra GAT",
   gat_doc: `
-  <0>The max supply cap available through this exchange is set to <1> 1.000.000 tokens</1>,
-  even though not all supply might be added to the exchange right from the beginning.</0>
-  <1>The exchange is configured for linear price increase. The very first token costs <1>{{smin}} {{currency}}</1>.
-  And the last, millionth, token would cost <3>{{smax}} {{currency}}</3>.</1>
-  <2>If there is more BNB sent than available GAT tokens, the difference will be returned
-  to the sender along with the exchanged tokens.</2>
+  <0>La massima disponibilità disponibile in questo exchange è di <1> 1.000.000 token</1>,
+  nonostante non tutta la disponibilità potrebbe essere aggiunta all' exchange di diritto dall'inizio.</0>
+  <1>L' exchange è configurato con incrementi di prezzo linerari. Il primo token costa <1>{{smin}} {{currency}}</1>.
+  L'ultimo, il milionesimo, token potrebbe costare <3>{{smax}} {{currency}}</3>.</1>
+  <2>Se ci sono più BNB inviati di quanti GAT token disponibili, la differenza verrà ritornata al mittente per i token scambiati.</2>
   `,
-  gat_input: "Enter {{currency}} value",
-  gat_input_doc: "Amount you are willing to spend",
-  gat_calc: "You get approx. GAT",
-  gat_avg: "Average GAT price",
-  gat_button: "Exchange {{currency}} for GAT",
-  shaman_payout_button: "Payout my rewards",
-  shaman_payout: "Payout successful!",
+  gat_input: "Inserisci il valore {{currency}} ",
+  gat_input_doc: "Importo che sei disposto a spendere",
+  gat_calc: "Avrai approssimativamente GAT",
+  gat_avg: "GAT prezzo medio",
+  gat_button: "Scambia {{currency}} per GAT",
+  shaman_payout_button: "Paga le mie ricompense",
+  shaman_payout: "Pagamento avvenuto con successo!",
   shaman_payout_doc:
-    "Once the transaction is approved, you should see sweet {{currency}} in your account for being an awesome shaman!",
-  shaman_payout_ok: "Successfully unlocked!",
+    "Una volta che la transazione è approvata, dovresti vedere un piacevole {{currency}} nel tuo account per essere un fantastico shamano!",
+  shaman_payout_ok: "Sbloccato con successo!",
   shaman_payout_ok_doc:
-    "Once the transaction is approved, you should see the GAT in you account.",
-  shaman_lock_ok: "Successfully locked!",
+    "Una volta che la transazione è approvata, dovresti vedere i tuoi GAT nel tuo account.",
+  shaman_lock_ok: "Bloccato con successo!",
   shaman_lock_ok_doc:
-    "Once the transaction is approved, you should see your GAT share in the vault.",
-  shaman_unlock: "Unlock all my GAT",
-  vault_stats: "Vault Stats",
-  vault_my_stats: "My Vault Stats",
-  vault_balance: "Vault GAT balance",
-  vault_my_balance: "My locked GAT balance",
-  vault_my_balance_share: "{{share}}% of total",
-  vault_eligible_start: "Eligible starting epoch",
-  vault_total_payable: "Total payable rewards",
-  shamans_share: "Shamans' share of treasury",
+    "Una volta che la transazione è approvata, dovresti vedere i tuoi GAT condivisi nella cripta.",
+  shaman_unlock: "Sblocca tutti i miei GAT",
+  vault_stats: "Statistiche della cripta",
+  vault_my_stats: "Le mie statistiche della Cripta",
+  vault_balance: "Cripta, saldo in GAT",
+  vault_my_balance: "Saldo bloccato in GAT",
+  vault_my_balance_share: "{{share}}% del totale",
+  vault_eligible_start: "Idonei a inizio epoca",
+  vault_total_payable: "Ricompense totali",
+  shamans_share: "Tesoro condiviso degli Shamani",
   shamans_doc: `
-  At the end of the epoch, the treasury pays <1>{{pctShamans}}%</1> of
-          available {{currency}} to the shamans. This sum is divided and split
-          among all GAT holders who are eligible for payouts for that ending
-          epoch. During the next epoch, the shamans can request a payout of the
-          past epoch's rewards.
+  Alla fine di un epoca, il tesoro paga <1>{{pctShamans}}%</1> della disponibilità
+          in {{currency}} agli shamani. Questa somma è divisa e suddivisa su tutti i proprietari
+          di GAT che sono elegibili per pagare la fine di un epoca. Durante la prossima epoca, lo shamano
+          può richiedere il pagamento della ricompensa della passata epoca.
   `,
   shamans_doc_2: `
-  <0><0></0> Understand how the vault works</0>
+  <0><0></0> Capire come funziona la cripta</0>
 
-  <1>Locking GAT into the vault gives you the right to participate in Shamans'
-  reward payouts starting from the next epoch. The <2>"eligible starting epoch"</2>
-  tells you from which epoch on you are eligible for rewards.
-  Of course, you need to have at least some GAT locked to participate in the rewards.</1>
+  <1>Bloccare GAT all'interno della cripta ti dà diritto a partecipare alla ricompensa dello Shamano
+  a partire dalla prossima epoca. L' <2>"epoca canditata ad iniziare"</2>
+  dirà da quale epoca sei elegibile per le ricompense.
+  Ovviamente, bisona avere alcuni GAT bloccati per partecipare alla ricompensa.</1>
   
-  <2>If you request a payout all reward shares from all your past eligible epochs are paid out to your account.
-  The "eligible starting epoch" is set to the current one (so you can request your share for it in the next epoch).</2>
+  <2>Se richiedi il pagamento di tutte le ricompense, verranno pagate anche quelle delle epoche passate.
+  L "ecposa candidata ad iniziare" è settata ocome la corrente (quindi puoi richiedere di condividerla dalla prossima epoca).</2>
   
-  <3><0></0> Changing locks changes the eligibility epoch!</3>
+  <3><0></0> Cambiare le condivisioni cambia l'elegibilità nell'epoca!</3>
   
-  <4>If you add more GAT, the eligible epoch is set to the current epoch + 1.</4>
+  <4>Se inserisci più GAT, l'elegibilità nell'epoca è settata alla prossima.</4>
   
-  <5> Example: you added 100 GAT in epoch #1. This makes you eligible for payouts from epoch #2.
-  If you add more GAT in epoch #2, it will change your eligibility to epoch #3.
-  Hence, when the epoch #3 comes and the rewards for past epochs become available,
-  you will not get any for epoch #2.</5>
+  <5> Esempio: Hai aggiunto 100 GAT nell'epoca #1. Questo comporta essere eleggibile per il pagamento dall'epoca #2.
+  Se aggiungi più GAT nell'epoca #2, verrà cambiata l'elegibilità all'epoca #3.
+  Infine, quando l'epoca #3 arriva e le ricompense delle epoche passate diventano disponibili,
+  non riceverai nulla per l'epoca #2.</5>
   
-  <p>This is a technical limitation. As a workaround, you can use another address and lock GAT separately.</p>
+  <p>Questa è una limitazione tecnica. Una scorciatoia, puoi aggiungere un altro indirizzo e bloccare i GAT separatamente.</p>
   
-  <7>Unlocking removes all your GAT from the vault and bumps the epoch to the next one,
-  forfeiting any rewards for the current epoch.</7>
+  <7>Lo sblocco rimuove tutti i tuoi GAT dalla cripta e salta l'epoca alla prossima,
+  annullando qualunque ricompensa nell'epoca corrente.</7>
   
-  <8>Example: you added 100 GAT in epoch #1. In epoch #3 you unlock your GAT.
-  All the GAT is credited back to you and
-  <2>all outstanding rewards for past epochs are paid out automatically</2>
+  <8>Esempio: Aggiunti 100 GAT nell'epoca #1. Nell'epoca #3 sblocchi i tuoi GAT.
+  Tutti i GAT ti vengono restituiti 
+  <2>tutte le ricompense eccezionali delle epoche passate vengono pagate automaticamente</2>
   (in this case for epoch #2, if you did not request the payout before unlocking).
   However, in the epoch #4 you will not get and rewards for epoch #3, independently
   at what point in time during the epoch you unlocked your share from the vault.</8>
