@@ -120,12 +120,12 @@ module.exports = {
            <1>TOYS token addizionale di livello più basso </1> di quello
           Creato! <3>Sperimentare paga!</3>
   `,
-  error_header: "There was an error",
-  try_again: "Try again",
+  error_header: "C'è stato un errore",
+  try_again: "Prova di nuovo",
   toys_enlightenment_subheader:
-    "here is your enlightenment token - a key to Godhood",
-  toys_enlightenment_header: "Enlightenment achieved!",
-  toys_sacrifice_subheader: "here are the TOYS from your latest sacrifice",
+    "Qui c'e' il tuo enlightenment token - la chiave Divina",
+  toys_enlightenment_header: "Enlightenment effettuata!",
+  toys_sacrifice_subheader: "Questi sono i TOYS del tuo ultimo sacrificio",
   toys_sacrifice_header: "One step closer to enlightenment!",
   toys_sacrifice_button: "Sacrifice these TOYS",
   toys_sacrifice_confirmation: "These TOYS will be sacrificed",
