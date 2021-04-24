@@ -170,7 +170,7 @@ module.exports = {
     (<6></6>)</0> di tutte le carti sacrificate nella corrente fase di illuminazione (indipendentemente dal loro livello).
     La somma più bassa significa che hai sacrificato una carta vecchia.
     Questo giocatore ha un ruolo enorme, quando ci sono molteplici illuminazioni nella stessa epoca,
-    come quelli vecchi che hanno sacrificato una carta tengono la ricompensa del tesore in proporzione
+    come quelli vecchi che hanno sacrificato una carta tengono la ricompensa del tesoro in proporzione
     all'età.</0><1><0>Esempio</0>  Due illuminazioni in un epoca. Giocatore A <2></2> = <5>1000</5>.
     Giocatore B <7></7> = <10>500</10>. Somma = <13>1500</13>.
     Giocatore A prende <16>(1500-1000)/1500</16> = <19>33.33%</19> della ricompensa del tesoro.
@@ -180,26 +180,26 @@ module.exports = {
     <2>Quando c'è almeno una illuminazione in un epoca, puoi vedere nel tab dell'Illuminazione i 
     vincitori e le loro realizzazioni <2></2> SI (Indice di Sacrificio) può agire di conseguenza.</2>
   `,
-  enlightenment_my_sacrifices: "My Sacrifices",
-  enlightenment_enlightened_list: "Enlightened List",
-  gods_history: "God's History",
-  prophet_reward: "Prophet reward",
-  prophet_confirmation: "Thanks for being a prophet!",
+  enlightenment_my_sacrifices: "I miei Sacrifici",
+  enlightenment_enlightened_list: "Lista degli illuminati",
+  gods_history: "Divinità storiche",
+  prophet_reward: "Ricompensa del profeta",
+  prophet_confirmation: "Grazie per essere un profeta!",
   prophet_confirmation_doc:
-    "Once the transaction is confirmed the epoch will change! And you will be rewarded plentifully!",
-  prophet_error: "No enlightened, yet!",
+    "Una volta che la transazione è confermata l'epoca cambia! E verrai ricompensato abbondantemente!",
+  prophet_error: "Non ci sono ancora illuminazioni!",
   prophet_error_doc: `
-  In order to start the Proclamation Ritual, there has to be at least one
-        enlightened this epoch! Wait for an enlightened one or become
-        enlightened yourself by collecting more TOYS and sacrificing them!`,
+  Per iniziare il rituale di Proclamazione, ci dev'essere almeno una illuminazione
+        in questa epoca! Aspetta che ci sia un illuminato oppure diventa te stesso collezionando
+        e sacrificando TOYS!`,
   prophet_doc: `
-  <0>Once there is at least one enlightened, anyone can assume the role of a <1>"prophet"</1>
-  and finish the epoch by starting the <4>"Proclamation Ritual"</4>.
-  </0><1>During the Proclamation Ritual, the <1>Enlightenment Tokens</1>
-  of the enlightened players are exchanged for <3>Goodhood Tokens</3>.
-  Additionally, the Temple Treasury is opened and rewards paid out to the enlightened,
-  the shamans and even the prophet.</1><2>Being a prophet pays off! The user who first
-  clicks on the prophet button gets a whopping <1>{{pctProphet}}%</1> from the Temple's Treasury!</2>
+  <0>Una volta che c'e' almeno un illuminazione, chiunque può assumere il ruolo di <1>"profeta"</1>
+  e alla fine di un epoca parte il <4>"Rituale di Proclamazione"</4>.
+  </0><1>Durante il rituale di Proclamazione, un <1>Enlightenment Tokens</1>
+  dei giocatori illuminati sono scambiati per il <3>Goodhood Tokens</3>.
+  In aggiunta, il Tesoro del Tempio viene aperto e le ricompense vengono pagate agli illuminati,
+  allo shamano e ai profeti.</1><2>Essere un profeta paga! L'utente che primo clicca sul bottone profeta
+  riceve un enorme <1>{{pctProphet}}%</1> dal Tesoro del Tempio!</2>
   `,
   give_toys: "Give me TOYS",
   prophet_error_time: "Not enough time has passed, yet!",
