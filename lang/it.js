@@ -126,59 +126,59 @@ module.exports = {
     "Qui c'e' il tuo enlightenment token - la chiave Divina",
   toys_enlightenment_header: "Enlightenment effettuata!",
   toys_sacrifice_subheader: "Questi sono i TOYS del tuo ultimo sacrificio",
-  toys_sacrifice_header: "One step closer to enlightenment!",
-  toys_sacrifice_button: "Sacrifice these TOYS",
-  toys_sacrifice_confirmation: "These TOYS will be sacrificed",
-  toys_enlightenment_check: "Check my enlightenment",
-  toys_select_sacrifice: "Please select TOYS to sacrifice!",
+  toys_sacrifice_header: "Uno steo più vicino all'illumiazione!",
+  toys_sacrifice_button: "Sacrifica questi TOYS",
+  toys_sacrifice_confirmation: "Questi TOYS saranno sacrificati",
+  toys_enlightenment_check: "Controlla la mia illuminazione",
+  toys_select_sacrifice: "Seleziona i TOYS da sacrificare!",
   toys_select_sacrifice_description:
-    "You have to select at least one TOY token from you collection.",
-  toys_unselect_subheader: "please unselect!",
-  toys_unselect_header: "These TOYS cannot be sacrificed",
-  toys_unselect_button: "Unselect problematic TOYS",
+    "Devi selezionare almeno un TOYS token dalla tua collezione.",
+  toys_unselect_subheader: "Togli la selezione!",
+  toys_unselect_header: "Questi TOYS non possono essere sacrificati",
+  toys_unselect_button: "Togli la selezione dei TOYS problematici",
   toys_unselect_description:
-    "These TOYS are special, have already been sacrificed or you are trying to sacrifice same TOYS type more than once right now. Please unselect the TOYS below",
-  toys_sacrifice_turns_header: "Not enough turns to sacrifice",
+    "Questi TOYS sono speciali, Li hai già sacrificati oppure stai tentando di sacrificare più TOYS di quello che puoi fare adesso. Togli la selezione",
+  toys_sacrifice_turns_header: "Non ci sono abbaastanza turni per il sacrificio",
   toys_sacrifice_turns_description:
-    "You do not have enough turns left to sacrifice all these TOYS, as each sacrifice costs one turn. Please unselect some of the toys to continue.",
+    "Non hai abbastanza turni per sacrificare tutti i TOYS, Ogni sacrificio costa un turno. Togli la selezione per continuare.",
   toys_sacrifice_doc: `
-  Sacrificing your TOYS <1>brings you closer to enlightenment</1>. As
-          soon as you sacrifice one of each existing TOYS types, you will
-          automatically get an <3>Enlightenment Token</3>, a key to Godhood!
+  Sacrificando i tuoi TOYS <1>ti avvicini all'illuminazione</1>. Ogni volta
+          sacrifichi un TOYS, prenderai automaticamente un 
+          <3>Enlightenment Token</3>, la chiave per la divinità!
   `,
-  toys_sacrifice_doc_2: `Sacrificing costs you <1>one turn per sacrificed TOYS token</1>.`,
+  toys_sacrifice_doc_2: `Il sacrificio costerà <1>un turno per TOYS token sacrificati</1>.`,
   toys_Serial_doc: `
-  The list below shows the current (global) highest serial number for
-            each token type. When a new TOYS token is minted, it automatically
-            gets a higher number, incrementing the global counter for it's type.
+  La lista sotto mostra l'attuale (globale) più alto numero seriale per ogni token. 
+            Quando un TOYS viene creato, automaticamente prende il numero più alto
+            incrementando il contatore globale del suo tipo.
   `,
   toys_serial_doc_2: `
-  TOYS with
-            <1> smaller serial number (= older TOYS) are more valuable</1> when
-            it comes to sacrificing. An enlightened player (who sacrificed one
-            of each TOYS type) with lowest serial number sum has precedence and
-            takes <3>higher reward</3> during the proclamation ceremony
-            (ascension to Godhood):
+  I TOYS con
+            <1> un piccolo numero seriale (= TOYS vecchi) sono più preziosi</1> quando
+            verranno sacrificati. Un giocatore illuminato (chi sacrifica un TOYS di ogni tipo) 
+            con la somma dei più piccoli numeri seriali ha la precedenza per prendere 
+            <3>la più alta ricompensa</3> durante la cerimonia di problamazione
+            (salita alla Divinità):
   `,
-  enlightenment_stat_sacrificed: "Sacrificed TOYS",
-  enlightenment_stat_index: "Your Sacrifice Index",
-  enlightenment_stat_enlightened: "Enlightened this epoch",
-  enlightenment_stat_you: "that's you!",
-  enlightenment_si_your: "Your current Sacrifice Index is",
+  enlightenment_stat_sacrificed: "TOYS Sacrificati",
+  enlightenment_stat_index: "Il tuo Indice di Sacrificio",
+  enlightenment_stat_enlightened: "Illuminazioni in questa epoca",
+  enlightenment_stat_you: "Grazie!",
+  enlightenment_si_your: "Il tuo Indice di Sacrificio è",
   enlightenment_si_description: `
-    <0><0>Sacrifice Index ("SI" or <1></1>) is the <4>sum of the serial numbers</4>
-    (<6></6>)</0> of all your sacrificed cards in the current enlightenment (independent of their level).
-    Lower sum means that you sacrificed an older collection.
-    This plays a huge role, when there are multiple enlightened in the same epoch,
-    as the one with older sacrificed collection gets bigger treasury reward in proportion
-    to the age.</0><1><0>Example</0>  Two enlightened in a epoch. Player A <2></2> = <5>1000</5>.
-    Player B <7></7> = <10>500</10>. Sum = <13>1500</13>.
-    Player A gets <16>(1500-1000)/1500</16> = <19>33.33%</19> of the treasury reward.
-    Player B gets <22>(1500-500)/1500</22> = <25>66.66%</25>.
-    If player B had <27></27> = <30>250</30> the reward changes dramatically to <33>(1250-250)/1250</33> = <36>80%</36>.
-    Hence, old cards gain value fast as they give you bigger chunk of the treasure!</1>
-    <2>When there is at least one enlightened in the epoch, you can see the enlightened tab with the
-    winners and their achieved <2></2> SI (Sacrifice index) so you can act accordingly.</2>
+    <0><0>L'indice di Sacrificio ("SI" or <1></1>) è la <4>somma dei numeri seriali</4>
+    (<6></6>)</0> di tutte le carti sacrificate nella corrente fase di illuminazione (indipendentemente dal loro livello).
+    La somma più bassa significa che hai sacrificato una carta vecchia.
+    Questo giocatore ha un ruolo enorme, quando ci sono molteplici illuminazioni nella stessa epoca,
+    come quelli vecchi che hanno sacrificato una carta tengono la ricompensa del tesore in proporzione
+    all'età.</0><1><0>Esempio</0>  Due illuminazioni in un epoca. Giocatore A <2></2> = <5>1000</5>.
+    Giocatore B <7></7> = <10>500</10>. Somma = <13>1500</13>.
+    Giocatore A prende <16>(1500-1000)/1500</16> = <19>33.33%</19> della ricompensa del tesoro.
+    Giovatore B prende <22>(1500-500)/1500</22> = <25>66.66%</25>.
+    Se il giocatore B ha <27></27> = <30>250</30> le reward cambiano drasticamente a <33>(1250-250)/1250</33> = <36>80%</36>.
+    Quindi, vecchie carte recuperano valore velocemente e daranno un grande pezzo del tesoro!</1>
+    <2>Quando c'è almeno una illuminazione in un epoca, puoi vedere nel tab dell'Illuminazione i 
+    vincitori e le loro realizzazioni <2></2> SI (Indice di Sacrificio) può agire di conseguenza.</2>
   `,
   enlightenment_my_sacrifices: "My Sacrifices",
   enlightenment_enlightened_list: "Enlightened List",
