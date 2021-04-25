@@ -4,7 +4,7 @@ module.exports = {
   action_melt: "Melt",
   action_sacrifice: "Sacrifice",
   action_enlighten: "Enlightenment",
-  action_ascent: "Ascention",
+  action_ascend: "Ascention",
   action_back_toys: "Back to My TOYS Deck",
   nav_favorites: "Favorites",
   nav_dashboard: "Dashboard",
