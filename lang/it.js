@@ -19,7 +19,12 @@ module.exports = {
   nav_twitter: "Twitter",
   nav_blog: "Blog",
   nav_telegram: "Telegram",
+  nav_discord: "Discord",
   nav_github: "GitHub",
+  nav_legal: "Legale / Disclaimer",
+  cookie_msg:
+    "Questo sito web utilizza i cookie per ottimizzare l'esperienza dell'utente!",
+  cookie_accept: "Capisco",
   nav_open: "Apri il pannello",
   nav_close: "Chiudi il pannello",
   connect: "Connetti",
@@ -164,7 +169,7 @@ module.exports = {
           <3>Enlightenment Token</3>, la chiave per la divinità!
   `,
   toys_sacrifice_doc_2: `Il sacrificio costerà <1>un turno per TOYS token sacrificati</1>.`,
-  toys_Serial_doc: `
+  toys_serial_doc: `
   La lista sotto mostra l'attuale (globale) più alto numero seriale per ogni token. 
             Quando un TOYS viene creato, automaticamente prende il numero più alto
             incrementando il contatore globale del suo tipo.

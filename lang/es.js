@@ -19,7 +19,12 @@ module.exports = {
   nav_twitter: "Twitter",
   nav_blog: "Blog",
   nav_telegram: "Telegram",
+  nav_discord: "Discord",
   nav_github: "GitHub",
+  nav_legal: "Nota legal",
+  cookie_msg:
+    "¡Este sitio web utiliza cookies para optimizar la experiencia del usuario!",
+  cookie_accept: "Entiendo",
   nav_open: "Abrir barra lateral",
   nav_close: "Cerrar barra lateral",
   connect: "Conectar",
@@ -92,7 +97,7 @@ module.exports = {
   pray_success_header: "Felicidades!",
   pray_success_subheader: "aquí están tus TOYS de la última adoración",
   melt_success_subheader: "aquí están los TOYS de su último derretimiento",
-  toys_worship_doc: `Adorar a EN por más tokens de TOYS te da 3 tokens de tipos aleatorios del nivel más bajo. Existe una <1>probabilidad compuesta de obtener una ficha de un nivel superior</1>. Adorar le cuesta <3> 1 tarifa de turno y un turno</3>.`,
+  toys_worship_doc: `Adorar a por más tokens de TOYS te da 3 tokens de tipos aleatorios del nivel más bajo. Existe una <1>probabilidad compuesta de obtener una ficha de un nivel superior</1>. Adorar le cuesta <3> 1 tarifa de turno y un turno</3>.`,
   toys_worship_cta:
     "Haga clic en el botón de abajo para iniciar el ritual de evocación:",
   toys_worship_button: "Adoración para TOYS",
@@ -161,7 +166,7 @@ module.exports = {
            obtén automáticamente un <3>Token de Iluminación</3>, ¡una clave para la Divinidad!
   `,
   toys_sacrifice_doc_2: `Sacrificar te cuesta <1>un turno por cada ficha de TOYS sacrificada</1>.`,
-  toys_Serial_doc: `
+  toys_serial_doc: `
   La siguiente lista muestra el número de serie más alto actual (global) para
              cada tipo de token. Cuando se acuña una nuevo token de TOYS, automáticamente
              obtienes un número más alto, incrementando el contador global para su tipo.

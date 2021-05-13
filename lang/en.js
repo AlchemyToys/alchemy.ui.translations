@@ -19,9 +19,13 @@ module.exports = {
   nav_twitter: "Twitter",
   nav_blog: "Blog",
   nav_telegram: "Telegram",
+  nav_discord: "Discord",
   nav_github: "GitHub",
   nav_open: "Open sidebar",
   nav_close: "Close sidebar",
+  nav_legal: "Legal / Disclaimer",
+  cookie_msg: "This website uses cookies to optimise the user experience!",
+  cookie_accept: "I understand",
   connect: "Connect",
   game_turn: "{{count}} Turn",
   game_turn_plural: "{{count}} Turns",
@@ -30,7 +34,7 @@ module.exports = {
   time_cycle_epoch: "Cycle / Epoch",
   time_current_epoch: "Current Epoch",
   time_next_cycle: "Next cycle can start",
-  last_actions: "Lastest player actions",
+  last_actions: "Latest player actions",
   your_balances: "Your Balances",
   balance: "balance",
   balance_GAT: "GAT balance",
@@ -93,7 +97,7 @@ module.exports = {
   pray_success_header: "Congratulations!",
   pray_success_subheader: "here are your TOYS from the last worship",
   melt_success_subheader: "here are the TOYS from your latest melt",
-  toys_worship_doc: `Worshipping EN for more TOYS tokens gives you 3 tokens of random types of the lowest level. There is a compound <1>probability of getting a token of a higher level</1>. Worshipping costs you <3>1 turn fee and one turn</3>.`,
+  toys_worship_doc: `Worshipping for more TOYS tokens gives you 3 tokens of random types of the lowest level. There is a compound <1>probability of getting a token of a higher level</1>. Worshipping costs you <3>1 turn fee and one turn</3>.`,
   toys_worship_cta: "Click on the button below to start the evocation ritual:",
   toys_worship_button: "Worship for TOYS",
   toys_worship_probabilities:
@@ -122,11 +126,11 @@ module.exports = {
   toys_select_button: "Select now",
   toys_melt_doc: `
   Melting two of your TOYS gives you
-          <1> a new TOYS token of a higher level! </1> If you melt two toys of
+          <1> a new TOYS token of a higher level! </1> If you melt two TOYS of
           different levels, the new TOYS token will be one level higher than the
           average (rounded down) of the two melted TOYS. Melting costs you
           <3> one turn fee and one turn</3>, apart of the two TOYS that you will
-          melt in the calderon.
+          melt in the cauldron.
   `,
   toys_melt_doc_2: `
   If the two TOYS types have not been melted before in this epoch, you
@@ -153,14 +157,14 @@ module.exports = {
     "These TOYS are special, have already been sacrificed or you are trying to sacrifice same TOYS type more than once right now. Please unselect the TOYS below",
   toys_sacrifice_turns_header: "Not enough turns to sacrifice",
   toys_sacrifice_turns_description:
-    "You do not have enough turns left to sacrifice all these TOYS, as each sacrifice costs one turn. Please unselect some of the toys to continue.",
+    "You do not have enough turns left to sacrifice all these TOYS, as each sacrifice costs one turn. Please unselect some of the TOYS to continue.",
   toys_sacrifice_doc: `
   Sacrificing your TOYS <1>brings you closer to enlightenment</1>. As
           soon as you sacrifice one of each existing TOYS types, you will
           automatically get an <3>Enlightenment Token</3>, a key to Godhood!
   `,
   toys_sacrifice_doc_2: `Sacrificing costs you <1>one turn per sacrificed TOYS token</1>.`,
-  toys_Serial_doc: `
+  toys_serial_doc: `
   The list below shows the current (global) highest serial number for
             each token type. When a new TOYS token is minted, it automatically
             gets a higher number, incrementing the global counter for it's type.
@@ -209,7 +213,7 @@ module.exports = {
   <0>Once there is at least one enlightened, anyone can assume the role of a <1>"prophet"</1>
   and finish the epoch by starting the <4>"Proclamation Ritual"</4>.
   </0><1>During the Proclamation Ritual, the <1>Enlightenment Tokens</1>
-  of the enlightened players are exchanged for <3>Goodhood Tokens</3>.
+  of the enlightened players are exchanged for <3>Godhood Tokens</3>.
   Additionally, the Temple Treasury is opened and rewards paid out to the enlightened,
   the shamans and even the prophet.</1><2>Being a prophet pays off! The user who first
   clicks on the prophet button gets a whopping <1>{{pctProphet}}%</1> from the Temple's Treasury!</2>
@@ -265,7 +269,7 @@ module.exports = {
   (soon-to-be Gods), the shamans (for their hard work at the Temple) and the prophet.</p>
   <p>The breakdown is as follows:</p>
   `,
-  enlightened_plural: "Enlightenend",
+  enlightened_plural: "Enlightened",
   shamans_plural: "Shamans",
   prophet: "Prophet",
   temple_reserve: "Temple reserve",
@@ -286,7 +290,7 @@ module.exports = {
   gat_total: "Available GAT",
   gat_more: "Get more GAT",
   gat_doc: `
-  <0>The max supply cap available through this exchange is set to <1> 1.000.000 tokens</1>,
+  <0>The max supply cap available through this exchange is set to <1> 1,000,000 tokens</1>,
   even though not all supply might be added to the exchange right from the beginning.</0>
   <1>The exchange is configured for linear price increase. The very first token costs <1>{{smin}} {{currency}}</1>.
   And the last, millionth, token would cost <3>{{smax}} {{currency}}</3>.</1>
@@ -304,7 +308,7 @@ module.exports = {
     "Once the transaction is approved, you should see sweet {{currency}} in your account for being an awesome shaman!",
   shaman_payout_ok: "Successfully unlocked!",
   shaman_payout_ok_doc:
-    "Once the transaction is approved, you should see the GAT in you account.",
+    "Once the transaction is approved, you should see the GAT in your account.",
   shaman_lock_ok: "Successfully locked!",
   shaman_lock_ok_doc:
     "Once the transaction is approved, you should see your GAT share in the vault.",
@@ -353,7 +357,7 @@ module.exports = {
   All the GAT is credited back to you and
   <2>all outstanding rewards for past epochs are paid out automatically</2>
   (in this case for epoch #2, if you did not request the payout before unlocking).
-  However, in the epoch #4 you will not get and rewards for epoch #3, independently
+  However, in the epoch #4 you will not get any rewards for epoch #3, independently
   at what point in time during the epoch you unlocked your share from the vault.</8>
   `,
   shamans_lock_header: "Lock more GAT",
