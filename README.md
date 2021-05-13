@@ -36,8 +36,9 @@ module.exports = {
 There are several Rules that you have to comply:
 
 1. Only change the part of the file between the Quotes. Fo example: `"Worship"` is changed to `"Anbetung"` in German.
-2. Do NOT translate text between the `{{}}` brackets. These arevariable names and they have t stay the same. Example: `{{count}}`.
+2. Do NOT translate text between the `{{}}` brackets. These arevariable names and they have to stay the same. Example: `{{count}}`.
 3. Do NOT remove tags like `<1>` and `</1>`. They are used to mark the correct html structure. Translate around these tags.
+4. Do NOT translate TOYs, GATs and Alchemy.Toys as those are names of the project and tokens.
 
 Following the rules above, the example above would look like this in German:
 
